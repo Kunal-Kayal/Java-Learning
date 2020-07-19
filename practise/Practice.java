@@ -1,25 +1,19 @@
 package practise;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Practice {
 
 
 	public static void main(String[] args) {
-      System.out.println(cheaking(3));
+     int a[] = {1,3,2,5,3,6,4,8};
+     Array.sort(a);
+     
 		
 	
 	
 	}
-	 static int data;
-	 static int cheaking(int a) {
-		
-		 if(a==0)data=0;
-		 if(a==3) {
-			 data=3;
-		 }
-		 return data;
-	 }
 
 }
 
